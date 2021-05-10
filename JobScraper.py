@@ -11,7 +11,7 @@ import requests
 
 ## set headers, parameters, url for session request
 headers = {'User-Agent': 'Mozilla/5.0'}
-payload = {'id': '9084332646', 'pin': '7569', 'location': '', 'qstring': '', 'absr_ID': '', 'foil': '', 'submitLogin': '1'}
+payload = {'id': 'INSERT_ID_HERE', 'pin': 'INSERT_PIN_HERE', 'location': '', 'qstring': '', 'absr_ID': '', 'foil': '', 'submitLogin': '1'}
 url = 'https://aesoponline.com/login.asp?x=x&&pswd=&sso='
 
 ## begin session
